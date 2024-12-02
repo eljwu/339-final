@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
+        <link rel="stylesheet" href="css/html5reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>PSR - Calendar</title>
+        <!-- Fomantic UI CSS library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+        <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.3.2/main.min.css' rel='stylesheet'>
+        <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.3.2/main.min.js'></script>
+    </head>
+    <body>
+        <div class="skip"><a href="#main">Skip to Content</a></div>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href = "index.html">HOME</a></li>
+                    <li class="active"><a href = "gcal.html">CALENDAR</a></li>
+                    <li><a href = "links.html">LINKS</a></li>
+                    <li><a href = "gallery.html">GALLERY</a></li>
+                </ul>
+            </nav>
+            <h1>CALENDAR</h1>
+            <h2>Important chapter events</h2>
+        </header>
+        <div class="container" id="main">
+            <br>
+            <br>
+            <br>
+                <div class="gcal-links">
+                    <a href="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FNew_York"
+                    target="_blank">
+                        Open Phi Rho Calendar in Google Calendar
+                    </a>
+                    &nbsp;
+                    &nbsp;
+                    <a href="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FNew_York"
+                    data-tooltip="Make sure you're logged into your @umich.edu Google Calendar"
+                    target="_blank">
+                        Add Phi Rho Calendar to My Calendar
+                    </a>
+                </div>
+                <br>
+                <div id="cal"></div>
+                <br>
+        </div>
+        <script src="js/gcal.js"></script>
+    </body>
+</html>
